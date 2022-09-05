@@ -46,6 +46,16 @@ const Header = () => {
                             </ul>
                         </nav>
 
+                        {isOpened && (
+                            <nav className="header__nav header__nav--mobile">
+                                <ul className="nav__list">
+                                    <li className="nav__item">text</li>
+                                    <li className="nav__item">text_text</li>
+                                    <li className="nav__item">text_text</li>
+                                </ul>
+                            </nav>
+                        )}
+
                         <button
                             className={
                                 isOpened ? "burger burger--active" : "burger"
