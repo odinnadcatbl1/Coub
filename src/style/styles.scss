@@ -26,6 +26,10 @@ html {
 
 .page__title {
     font-size: 6rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 3.6rem;
+    }
 }
 
 @import "../components/App/app.scss";
