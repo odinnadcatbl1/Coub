@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import logo from "../../assets/logo.svg";
 import introImg from "../../assets/intro.png";
@@ -12,15 +13,17 @@ const Header = () => {
                 <div className="header__inner">
                     <div className="header__left">
                         <div className="header__logo">
-                            <div className="logo__container">
-                                <img
-                                    src={logo}
-                                    alt="logo"
-                                    className="logo__img"
-                                />
-                            </div>
+                            <Link to="/">
+                                <div className="logo__container">
+                                    <img
+                                        src={logo}
+                                        alt="logo"
+                                        className="logo__img"
+                                    />
+                                </div>
 
-                            <div className="logo__name"> logo</div>
+                                <div className="logo__name"> logo</div>
+                            </Link>
                         </div>
 
                         <div className="header__intro">
@@ -40,18 +43,34 @@ const Header = () => {
                     <div className="header__right">
                         <nav className="header__nav">
                             <ul className="nav__list">
-                                <li className="nav__item">text</li>
-                                <li className="nav__item">text_text</li>
-                                <li className="nav__item">text_text</li>
+                                <li className="nav__item">
+                                    <Link to="/text">text</Link>
+                                </li>
+                                <li className="nav__item">
+                                    <Link to="/text_text">text_text</Link>
+                                </li>
+                                <li className="nav__item">
+                                    <Link to="/text_text_text">
+                                        text_text_text
+                                    </Link>
+                                </li>
                             </ul>
                         </nav>
 
                         {isOpened && (
                             <nav className="header__nav header__nav--mobile">
                                 <ul className="nav__list">
-                                    <li className="nav__item">text</li>
-                                    <li className="nav__item">text_text</li>
-                                    <li className="nav__item">text_text</li>
+                                    <li className="nav__item">
+                                        <Link to="/text">text</Link>
+                                    </li>
+                                    <li className="nav__item">
+                                        <Link to="/text_text">text_text</Link>
+                                    </li>
+                                    <li className="nav__item">
+                                        <Link to="/text_text_text">
+                                            text_text_text
+                                        </Link>
+                                    </li>
                                 </ul>
                             </nav>
                         )}
