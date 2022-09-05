@@ -6,7 +6,19 @@
 .header__inner {
     display: flex;
     justify-content: space-between;
-    padding: 4.6rem 2rem;
+}
+
+.header__left {
+    width: 100%;
+    padding: 4.6rem 0rem 20.5rem;
+}
+
+.header__right {
+    display: flex;
+    width: 100%;
+    background-color: $mainColor;
+    padding: 4.6rem 0;
+    align-items: flex-start;
 }
 
 .header__logo {
@@ -15,10 +27,48 @@
     display: flex;
     align-items: center;
     color: $mainColor;
+    padding-left: 2rem;
+}
+
+.header__intro {
+    margin-top: 12.4rem;
+    padding: 0 8rem;
+}
+
+.intro__text {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.intro__button {
+    margin-top: 11rem;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    background-color: $mainColor;
+    padding: 1.3rem 5.8rem;
+    font-family: inherit;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    border: 1px solid $mainColor;
+
+    &:hover {
+        background-color: white;
+        color: $mainColor;
+    }
+}
+
+.intro__img-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-28%);
+    bottom: -1rem;
 }
 
 .header__nav {
-    width: 50%;
+    margin-top: 3.5rem;
+    width: 100%;
+    padding: 0 3rem;
 }
 
 .nav__list {
@@ -37,9 +87,10 @@
     padding: 0 1.5rem 0.8rem;
     transition: all 0.2s ease;
     border-bottom: 2px solid;
-    border-color: white;
+    border-color: $mainColor;
+    cursor: pointer;
 
     &:hover {
-        border-color: black;
+        border-color: white;
     }
 }

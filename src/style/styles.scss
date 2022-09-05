@@ -20,5 +20,9 @@ html {
     width: 100%;
 }
 
+.page__title {
+    font-size: 6rem;
+}
+
 @import "../components/App/app.scss";
 @import "../components/Header/header.scss";
