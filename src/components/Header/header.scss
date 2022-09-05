@@ -1,11 +1,10 @@
 .header {
-    position: fixed;
-    width: 100%;
 }
 
 .header__inner {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .header__left {
@@ -32,7 +31,7 @@
 
 .header__intro {
     margin-top: 12.4rem;
-    padding: 0 8rem;
+    padding-left: 8rem;
 }
 
 .intro__text {
@@ -60,9 +59,18 @@
 
 .intro__img-container {
     position: absolute;
-    left: 50%;
-    transform: translateX(-28%);
+
+    height: 72%;
     bottom: -1rem;
+    display: flex;
+    justify-content: center;
+    left: 9%;
+    width: 100%;
+}
+
+.intro__img {
+    object-fit: contain;
+    height: 100%;
 }
 
 .header__nav {
