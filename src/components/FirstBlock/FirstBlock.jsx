@@ -7,14 +7,14 @@ const FirstBlockItems = [
         id: 1,
         logo: img1,
         title: "TEXT_TEXT",
-        text: "TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT",
+        text: "TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_ TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_ TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT",
         link: "TEXT",
     },
     {
         id: 2,
         logo: img2,
         title: "TEXT_TEXT",
-        text: "TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT",
+        text: "TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_ TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_ TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT_TEXT",
         link: "TEXT",
     },
 ];
@@ -29,17 +29,15 @@ const FirstBlock = () => {
                             return (
                                 <li key={item.id} className="first__block-item">
                                     <div className="first__item-inner">
-                                        <div className="first__item-caption">
-                                            <div className="first__img-container">
-                                                <img
-                                                    src={item.logo}
-                                                    alt=""
-                                                    className="first__img"
-                                                />
-                                                <div className="first__item-title">
-                                                    {item.title}
-                                                </div>
-                                            </div>
+                                        <div className="first__img-container">
+                                            <img
+                                                src={item.logo}
+                                                alt=""
+                                                className="first__img"
+                                            />
+                                        </div>
+                                        <div className="first__item-title">
+                                            {item.title}
                                         </div>
 
                                         <div className="first__item-text">
