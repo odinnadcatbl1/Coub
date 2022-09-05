@@ -19,3 +19,6 @@ html {
     padding: 0 11rem;
     width: 100%;
 }
+
+@import "../components/App/app.scss";
+@import "../components/Header/header.scss";
