@@ -41,6 +41,26 @@ const App = () => {
                             </div>
                         }
                     />
+                    <Route
+                        path="firstblock-link-1"
+                        element={
+                            <div className="container">
+                                <h2 className="page__title">
+                                    THIS IS THE PAGE FROM FIRST LINK
+                                </h2>
+                            </div>
+                        }
+                    />
+                    <Route
+                        path="firstblock-link-2"
+                        element={
+                            <div className="container">
+                                <h2 className="page__title">
+                                    THIS IS THE PAGE FROM SECOND LINK
+                                </h2>
+                            </div>
+                        }
+                    />
                 </Routes>
 
                 <Footer />
