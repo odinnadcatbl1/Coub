@@ -1,0 +1,52 @@
+.second__block-title {
+    padding: 7rem 0 6rem;
+}
+
+.second__block-list {
+    display: flex;
+    gap: 9.5rem;
+    counter-reset: counter;
+    flex-wrap: wrap;
+}
+
+.second__block-item {
+    padding-right: 6.3rem;
+    padding-bottom: 5.7rem;
+    position: relative;
+    width: 19%;
+    transition: all 0.2s ease;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &::after {
+        counter-increment: counter;
+        content: counter(counter);
+        position: absolute;
+        top: -3.8rem;
+        right: 0;
+        font-size: 28rem;
+        text-align: center;
+        color: $backgroundColor;
+        line-height: 1;
+        z-index: 0;
+    }
+}
+
+.second__img-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: $accentColor;
+}
+
+.second__item-text {
+    position: relative;
+    margin-top: 3.1rem;
+    font-size: 1.4rem;
+    line-height: 2;
+    font-family: $secondaryFont;
+    z-index: 2;
+}
