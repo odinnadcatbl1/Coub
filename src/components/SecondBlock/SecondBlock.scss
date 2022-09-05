@@ -8,6 +8,10 @@
     counter-reset: counter;
     flex-wrap: wrap;
     justify-content: center;
+
+    @media screen and (max-width: 1200px) {
+        gap: 5rem;
+    }
 }
 
 .second__block-item {
@@ -16,6 +20,10 @@
     position: relative;
     width: 19%;
     transition: all 0.2s ease;
+
+    @media screen and (max-width: 992px) {
+        width: 45%;
+    }
 
     &:hover {
         transform: scale(1.1);

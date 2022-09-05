@@ -5,4 +5,10 @@
 
 .footer__inner {
     padding: 4.9rem 0;
+
+    .page__title {
+        @media screen and (max-width: 768px) {
+            font-size: 4rem;
+        }
+    }
 }

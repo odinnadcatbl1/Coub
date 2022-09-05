@@ -5,6 +5,14 @@
 .first__block-list {
     display: flex;
     gap: 8rem;
+
+    @media screen and (max-width: 1200px) {
+        gap: 2rem;
+    }
+
+    @media screen and (max-width: 992px) {
+        flex-wrap: wrap;
+    }
 }
 
 .first__block-item {
@@ -12,10 +20,15 @@
     background-color: $backgroundColor;
     transition: all 0.2s ease;
     border: 1px solid white;
+    position: relative;
 
     &:hover {
         background-color: white;
         border: 1px solid $accentColor;
+    }
+
+    @media screen and (max-width: 992px) {
+        padding-right: 32rem;
     }
 }
 
@@ -27,11 +40,21 @@
     align-items: center;
     justify-content: center;
     position: absolute;
+    width: 10rem;
+    height: 10rem;
+
+    @media screen and (max-width: 992px) {
+        right: 6rem;
+        width: 20rem;
+        height: 20rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
 
 .first__img {
     object-fit: contain;
-    width: 95%;
+    width: 85%;
 }
 
 .first__item-title {
@@ -39,6 +62,14 @@
     margin-left: 16.4rem;
     padding-top: 2.7rem;
     padding-bottom: 7.3rem;
+
+    @media screen and (max-width: 1200px) {
+        margin-left: 14rem;
+    }
+
+    @media screen and (max-width: 992px) {
+        margin-left: 0;
+    }
 }
 
 .first__item-text {
