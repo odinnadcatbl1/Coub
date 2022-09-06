@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/coub/build/static/css/main.1f9c4637.css",
+    "main.js": "/coub/build/static/js/main.80420942.js",
+    "static/media/first-block2.svg": "/coub/build/static/media/first-block2.285552e19e05f9db907007756f329e1e.svg",
+    "static/media/second-block3.svg": "/coub/build/static/media/second-block3.151a1b8ad554a7fc5ff94e454e89d7c9.svg",
+    "static/media/first-block1.svg": "/coub/build/static/media/first-block1.7857a9a36d887300fefc44662a7f75e9.svg",
+    "static/media/second-block2.svg": "/coub/build/static/media/second-block2.03f3f6b9dc608d0a342abd4870bfd8ee.svg",
+    "static/media/second-block1.svg": "/coub/build/static/media/second-block1.0f996ded7a7fbd73248ac186c3e9f15e.svg",
+    "static/media/second-block4.svg": "/coub/build/static/media/second-block4.dcb284f4d1b73b33d739aeb603e351b0.svg",
+    "static/media/logo.svg": "/coub/build/static/media/logo.6dc5438b225c128386d1ba4263425ee0.svg",
+    "static/media/intro.png": "/coub/build/static/media/intro.e760b5dd79a3bf477498.png",
+    "index.html": "/coub/build/index.html",
+    "static/media/arrow-right.svg": "/coub/build/static/media/arrow-right.8ff858278deaca9ad77cc385d9c84b45.svg",
+    "main.1f9c4637.css.map": "/coub/build/static/css/main.1f9c4637.css.map",
+    "main.80420942.js.map": "/coub/build/static/js/main.80420942.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f9c4637.css",
+    "static/js/main.80420942.js"
+  ]
+}
