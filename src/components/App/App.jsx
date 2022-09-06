@@ -12,7 +12,7 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<MainPage />} />
                     <Route
-                        path="text"
+                        path="/text"
                         element={
                             <div className="container">
                                 <h2 className="page__title">
@@ -22,7 +22,7 @@ const App = () => {
                         }
                     />
                     <Route
-                        path="text_text"
+                        path="/text_text"
                         element={
                             <div className="container">
                                 <h2 className="page__title">
@@ -32,7 +32,7 @@ const App = () => {
                         }
                     />
                     <Route
-                        path="text_text_text"
+                        path="/text_text_text"
                         element={
                             <div className="container">
                                 <h2 className="page__title">
@@ -42,7 +42,7 @@ const App = () => {
                         }
                     />
                     <Route
-                        path="firstblock-link-1"
+                        path="/firstblock-link-1"
                         element={
                             <div className="container">
                                 <h2 className="page__title">
@@ -52,7 +52,7 @@ const App = () => {
                         }
                     />
                     <Route
-                        path="firstblock-link-2"
+                        path="/firstblock-link-2"
                         element={
                             <div className="container">
                                 <h2 className="page__title">
