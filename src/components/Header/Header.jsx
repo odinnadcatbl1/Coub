@@ -61,13 +61,26 @@ const Header = () => {
                             <nav className="header__nav header__nav--mobile">
                                 <ul className="nav__list">
                                     <li className="nav__item">
-                                        <Link to="/text">text</Link>
+                                        <Link
+                                            onClick={() => setIsOpened(false)}
+                                            to="/text"
+                                        >
+                                            text
+                                        </Link>
                                     </li>
                                     <li className="nav__item">
-                                        <Link to="/text_text">text_text</Link>
+                                        <Link
+                                            onClick={() => setIsOpened(false)}
+                                            to="/text_text"
+                                        >
+                                            text_text
+                                        </Link>
                                     </li>
                                     <li className="nav__item">
-                                        <Link to="/text_text_text">
+                                        <Link
+                                            onClick={() => setIsOpened(false)}
+                                            to="/text_text_text"
+                                        >
                                             text_text_text
                                         </Link>
                                     </li>
